@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fb4397c93901e708f14f41b1570b8ba847ba6f42">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75355a4bc8dea72be2d6343070dfd19745dfb740/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta3_26878c4b0cb9d28dabd08227fff167597eb1843b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_0c75263530272129cd56f8d71ab9c937f026b929/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_a1a4c440d227c6748fda2921d7431a165b54a9a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78a40a91ea9fc543287603f1c269c26f96ec1c1d">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e87a4bfde97a45417c9cf96e11ce228c6760db69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-21.0.3_f3b5f12c7b34fd8b25207f1132bdee3c7f1445b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_9f553e1598fb011897034d706f050f9a822ca334/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_cfdf31d4f299e018a6ee78644848998e36a970c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-21.0.3_1f5bd0882a0ccb3714f781f44e6210f1c3894638/classes.dex" />
+    </item>
+
+</items>

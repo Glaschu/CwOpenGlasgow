@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="90255644881912"
+    token="2144574662556971873"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2949" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="444" />
+    <task
+        name="verifier"
+        duration="44" />
+
+    <artifact
+        location="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="90255644881912"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

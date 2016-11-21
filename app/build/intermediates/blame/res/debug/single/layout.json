@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/item_1_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/item_1_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/gridview_item_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/gridview_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/navigation_drawer_base_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/navigation_drawer_base_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/item_2_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/item_2_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/item_4_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/item_4_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/item_3_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/item_3_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/home_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/home_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/item_5_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/item_5_layout.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/layout/list_view_header_layout.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/layout/list_view_header_layout.xml"
+    }
+]
