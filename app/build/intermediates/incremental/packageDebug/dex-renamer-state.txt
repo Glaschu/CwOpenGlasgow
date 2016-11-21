@@ -1,7 +1,7 @@
-#Mon Nov 21 11:07:44 GMT 2016
-base.0=/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e87a4bfde97a45417c9cf96e11ce228c6760db69
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75355a4bc8dea72be2d6343070dfd19745dfb740/classes.dex
-base.1=/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75355a4bc8dea72be2d6343070dfd19745dfb740
-file.0=/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e87a4bfde97a45417c9cf96e11ce228c6760db69/classes.dex
+#Mon Nov 21 11:15:32 GMT 2016
+base.0=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_db35b2df9854137f7e90659b15ec4ff368be67cf
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_366b651d7602a1491d732cf73a202df8ee0936ae/classes.dex
+base.1=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_366b651d7602a1491d732cf73a202df8ee0936ae
+file.0=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_db35b2df9854137f7e90659b15ec4ff368be67cf/classes.dex

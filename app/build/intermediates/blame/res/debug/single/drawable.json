@@ -4,8 +4,28 @@
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable/image5.png"
     },
     {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image5.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/image5.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/gridview_item_background.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/gridview_item_background.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image2.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/image2.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image3.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/image3.png"
+    },
+    {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable/image2.png",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable/image2.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/header_icon.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/header_icon.png"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable/image4.png",
@@ -14,6 +34,10 @@
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable/image1.png",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable/image1.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image1.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/image1.png"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable/image3.png",
@@ -26,5 +50,9 @@
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable/gridview_item_background.xml",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable/gridview_item_background.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image4.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable/image4.png"
     }
 ]

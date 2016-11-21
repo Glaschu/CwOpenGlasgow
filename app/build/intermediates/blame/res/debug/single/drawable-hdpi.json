@@ -4,8 +4,32 @@
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable-hdpi/item_3.png"
     },
     {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/item_5.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/item_5.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/item_1.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/item_1.png"
+    },
+    {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable-hdpi/settings.png",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/item_2.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/item_2.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/item_4.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/item_4.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/item_3.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/item_3.png"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
@@ -20,6 +44,10 @@
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable-hdpi/item_4.png"
     },
     {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/settings.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/settings.png"
+    },
+    {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable-hdpi/item_2.png",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable-hdpi/item_2.png"
     },
@@ -30,5 +58,9 @@
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/build/intermediates/res/merged/debug/drawable-hdpi/drawer_shadow.9.png",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/NavigationDrawerActivity/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable-hdpi/drawer_shadow.9.png",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
     }
 ]
