@@ -1,4 +1,4 @@
-#Mon Nov 21 11:15:32 GMT 2016
+#Mon Nov 21 14:09:34 GMT 2016
 base.0=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_db35b2df9854137f7e90659b15ec4ff368be67cf
 renamed.1=classes2.dex
 renamed.0=classes.dex

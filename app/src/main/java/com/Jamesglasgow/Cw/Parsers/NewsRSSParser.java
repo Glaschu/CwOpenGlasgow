@@ -56,17 +56,17 @@ public class NewsRSSParser {
                     if (theParser.getName().equalsIgnoreCase("title"))
                     {
                         // Now just get the associated text
-                        String temp =theParser.getAttributeValue(null,"Link");
+                        String temp =theParser.nextText();
                         // store data in class
                         RSSDataItem.setItemName(temp);
-                        //Log.e("Newstitle"," "+temp);
+                        Log.e("Newstitle"," "+temp);
                     }
                     else
                         // Check which Tag we have
                         if (theParser.getName().equalsIgnoreCase("Link"))
                         {
                             // Now just get the associated text
-                            String temp = theParser.getAttributeValue(null,"rise");
+                            String temp = theParser.nextText();
                             // store data in class
                             RSSDataItem.setitemWeb(temp);
 
@@ -77,7 +77,7 @@ public class NewsRSSParser {
                             if (theParser.getName().equalsIgnoreCase("description"))
                             {
                                 // Now just get the associated text
-                                String temp = theParser.getAttributeValue(null,"rise");
+                                String temp = theParser.nextText();
                                 // store data in class
                                 RSSDataItem.setItemDesc(temp);
 
@@ -91,7 +91,7 @@ public class NewsRSSParser {
                                     String temp = theParser.getAttributeValue(null,"url");
                                     // store data in class
                                     RSSDataItem.setIconId(temp);
-
+                                    Log.e("Icon"," "+temp);
 
                                 }
 

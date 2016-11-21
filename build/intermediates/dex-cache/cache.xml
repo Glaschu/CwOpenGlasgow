@@ -12,12 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_4f373a9594b5d7ce8163ed9da7d4ea076c3a4fca/classes.dex" />
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_2827403c04638836dd89b28c6f300dc1a51f5883/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_b6183ee14f5ab9982f4ad017479f7822a21b9b21/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -52,26 +61,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d160a809e43076eebe9291fba11842aac6a6e330">
+        sha1="78192876986f1279278a0ba43fe1a3de7756b7f5">
         <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_db35b2df9854137f7e90659b15ec4ff368be67cf/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_987fc7d0286d2ae43396f75a4c47537bfe370ad0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jamesglasgow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_cfdf31d4f299e018a6ee78644848998e36a970c2/classes.dex" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_eb93711e4bc130f7b51e2687d010c8ebac2c15d1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +81,42 @@
         revision="24.0.3"
         sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
         <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-21.0.3_13872904dffab79f4b35a7964daa3e354a3bd987/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_1879ab80d8ca8f1d293bb007c0253f6bc9b4c877/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_740d9325a0a615b7778f48a620f2cf06a951cc04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_d1981c230c5540aedd06ea7372ebbbe49adb6cd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_37a69d83a54d912a29ede55eb1ed3b2824e7ccbe/classes.dex" />
     </item>
 
 </items>

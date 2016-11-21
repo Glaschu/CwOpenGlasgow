@@ -9,6 +9,84 @@ package com.Jamesglasgow.Cw.OpenGlasgow;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ambientEnabled=0x7f010042;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int buttonSize=0x7f010049;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010033;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraMaxZoomPreference=0x7f010044;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraMinZoomPreference=0x7f010043;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f010034;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f010035;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f010036;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f010037;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -64,6 +142,28 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int cardUseCompatPadding=0x7f010028;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f010031;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int colorScheme=0x7f01004a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -114,6 +214,58 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int contentPaddingTop=0x7f01002d;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010030;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f01002f;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsNorthEastLatitude=0x7f010047;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsNorthEastLongitude=0x7f010048;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsSouthWestLatitude=0x7f010045;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int latLngBoundsSouthWestLongitude=0x7f010046;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -482,55 +634,201 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int layout_goneMarginTop=0x7f010023;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int liteMode=0x7f010038;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010032;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int scopeUris=0x7f01004b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f010039;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiMapToolbar=0x7f010041;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f01003a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f01003b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f01003c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f01003d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f01003e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f01003f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010040;
     }
     public static final class color {
-        public static final int cardview_dark_background=0x7f060000;
-        public static final int cardview_light_background=0x7f060001;
-        public static final int cardview_shadow_end_color=0x7f060002;
-        public static final int cardview_shadow_start_color=0x7f060003;
+        public static final int cardview_dark_background=0x7f070000;
+        public static final int cardview_light_background=0x7f070001;
+        public static final int cardview_shadow_end_color=0x7f070002;
+        public static final int cardview_shadow_start_color=0x7f070003;
+        public static final int common_google_signin_btn_text_dark=0x7f07000c;
+        public static final int common_google_signin_btn_text_dark_default=0x7f070004;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f070005;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f070006;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f070007;
+        public static final int common_google_signin_btn_text_light=0x7f07000d;
+        public static final int common_google_signin_btn_text_light_default=0x7f070008;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f070009;
+        public static final int common_google_signin_btn_text_light_focused=0x7f07000a;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f07000b;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
-        public static final int cardview_compat_inset_shadow=0x7f050002;
-        public static final int cardview_default_elevation=0x7f050003;
-        public static final int cardview_default_radius=0x7f050004;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int cardview_compat_inset_shadow=0x7f060002;
+        public static final int cardview_default_elevation=0x7f060003;
+        public static final int cardview_default_radius=0x7f060004;
     }
     public static final class drawable {
-        public static final int drawer_shadow=0x7f020000;
-        public static final int gridview_item_background=0x7f020001;
-        public static final int header_icon=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int image1=0x7f020004;
-        public static final int image2=0x7f020005;
-        public static final int image3=0x7f020006;
-        public static final int image4=0x7f020007;
-        public static final int image5=0x7f020008;
-        public static final int item_1=0x7f020009;
-        public static final int item_2=0x7f02000a;
-        public static final int item_3=0x7f02000b;
-        public static final int item_4=0x7f02000c;
-        public static final int item_5=0x7f02000d;
-        public static final int settings=0x7f02000e;
+        public static final int common_full_open_on_phone=0x7f020000;
+        public static final int common_google_signin_btn_icon_dark=0x7f020001;
+        public static final int common_google_signin_btn_icon_dark_disabled=0x7f020002;
+        public static final int common_google_signin_btn_icon_dark_focused=0x7f020003;
+        public static final int common_google_signin_btn_icon_dark_normal=0x7f020004;
+        public static final int common_google_signin_btn_icon_dark_pressed=0x7f020005;
+        public static final int common_google_signin_btn_icon_light=0x7f020006;
+        public static final int common_google_signin_btn_icon_light_disabled=0x7f020007;
+        public static final int common_google_signin_btn_icon_light_focused=0x7f020008;
+        public static final int common_google_signin_btn_icon_light_normal=0x7f020009;
+        public static final int common_google_signin_btn_icon_light_pressed=0x7f02000a;
+        public static final int common_google_signin_btn_text_dark=0x7f02000b;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f02000c;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f02000d;
+        public static final int common_google_signin_btn_text_dark_normal=0x7f02000e;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f02000f;
+        public static final int common_google_signin_btn_text_light=0x7f020010;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f020011;
+        public static final int common_google_signin_btn_text_light_focused=0x7f020012;
+        public static final int common_google_signin_btn_text_light_normal=0x7f020013;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f020014;
+        public static final int drawer_shadow=0x7f020015;
+        public static final int gridview_item_background=0x7f020016;
+        public static final int header_icon=0x7f020017;
+        public static final int ic_launcher=0x7f020018;
+        public static final int image1=0x7f020019;
+        public static final int image2=0x7f02001a;
+        public static final int image3=0x7f02001b;
+        public static final int image4=0x7f02001c;
+        public static final int image5=0x7f02001d;
+        public static final int item_1=0x7f02001e;
+        public static final int item_2=0x7f02001f;
+        public static final int item_3=0x7f020020;
+        public static final int item_4=0x7f020021;
+        public static final int item_5=0x7f020022;
+        public static final int settings=0x7f020023;
     }
     public static final class id {
-        public static final int PlaceTV=0x7f09000b;
-        public static final int TempTV=0x7f09000a;
-        public static final int action_settings=0x7f090010;
-        public static final int card_view=0x7f090009;
-        public static final int container=0x7f090008;
-        public static final int content_frame=0x7f09000e;
-        public static final int drawer_layout=0x7f09000d;
-        public static final int gridview=0x7f090007;
-        public static final int image_view=0x7f09000c;
-        public static final int item_icon_imgview=0x7f090004;
-        public static final int item_name_description=0x7f090006;
-        public static final int item_name_txtview=0x7f090005;
-        public static final int left_drawer=0x7f09000f;
-        public static final int packed=0x7f090001;
-        public static final int parent=0x7f090000;
-        public static final int spread=0x7f090002;
-        public static final int spread_inside=0x7f090003;
+        public static final int PlaceTV=0x7f0a0018;
+        public static final int TempTV=0x7f0a0017;
+        public static final int action_settings=0x7f0a001d;
+        public static final int adjust_height=0x7f0a0004;
+        public static final int adjust_width=0x7f0a0005;
+        public static final int auto=0x7f0a000e;
+        public static final int card_view=0x7f0a0016;
+        public static final int container=0x7f0a0015;
+        public static final int content_frame=0x7f0a001b;
+        public static final int dark=0x7f0a000f;
+        public static final int drawer_layout=0x7f0a001a;
+        public static final int gridview=0x7f0a0014;
+        public static final int hybrid=0x7f0a0007;
+        public static final int icon_only=0x7f0a000b;
+        public static final int image_view=0x7f0a0019;
+        public static final int item_icon_imgview=0x7f0a0011;
+        public static final int item_name_description=0x7f0a0013;
+        public static final int item_name_txtview=0x7f0a0012;
+        public static final int left_drawer=0x7f0a001c;
+        public static final int light=0x7f0a0010;
+        public static final int none=0x7f0a0006;
+        public static final int normal=0x7f0a0008;
+        public static final int packed=0x7f0a0001;
+        public static final int parent=0x7f0a0000;
+        public static final int satellite=0x7f0a0009;
+        public static final int spread=0x7f0a0002;
+        public static final int spread_inside=0x7f0a0003;
+        public static final int standard=0x7f0a000c;
+        public static final int terrain=0x7f0a000a;
+        public static final int wide=0x7f0a000d;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f080000;
     }
     public static final class layout {
         public static final int drawer_list_item=0x7f030000;
@@ -545,15 +843,32 @@ containing a value of this type.
         public static final int navigation_drawer_base_layout=0x7f030009;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int close_drawer=0x7f070002;
-        public static final int dummy_string=0x7f070003;
-        public static final int hello_world=0x7f070004;
-        public static final int open_drawer=0x7f070005;
+        public static final int action_settings=0x7f040011;
+        public static final int app_name=0x7f040012;
+        public static final int close_drawer=0x7f040013;
+        public static final int common_google_play_services_enable_button=0x7f040000;
+        public static final int common_google_play_services_enable_text=0x7f040001;
+        public static final int common_google_play_services_enable_title=0x7f040002;
+        public static final int common_google_play_services_install_button=0x7f040003;
+        public static final int common_google_play_services_install_text=0x7f040004;
+        public static final int common_google_play_services_install_title=0x7f040005;
+        public static final int common_google_play_services_notification_ticker=0x7f040006;
+        public static final int common_google_play_services_unknown_issue=0x7f040007;
+        public static final int common_google_play_services_unsupported_text=0x7f040008;
+        public static final int common_google_play_services_update_button=0x7f040009;
+        public static final int common_google_play_services_update_text=0x7f04000a;
+        public static final int common_google_play_services_update_title=0x7f04000b;
+        public static final int common_google_play_services_updating_text=0x7f04000c;
+        public static final int common_google_play_services_wear_update_text=0x7f04000d;
+        public static final int common_open_on_phone=0x7f04000e;
+        public static final int common_signin_button_text=0x7f04000f;
+        public static final int common_signin_button_text_long=0x7f040010;
+        public static final int dummy_string=0x7f040014;
+        public static final int hello_world=0x7f040015;
+        public static final int open_drawer=0x7f040016;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -564,13 +879,13 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f050000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
-        public static final int CardView=0x7f040002;
-        public static final int CardView_Dark=0x7f040003;
-        public static final int CardView_Light=0x7f040004;
+        public static final int AppTheme=0x7f050001;
+        public static final int CardView=0x7f050002;
+        public static final int CardView_Dark=0x7f050003;
+        public static final int CardView_Light=0x7f050004;
     }
     public static final class styleable {
         /** Attributes that can be used with a CardView.
@@ -2281,5 +2596,526 @@ containing a value of this type.
           @attr name android:orientation
         */
         public static final int LinearConstraintLayout_android_orientation = 0;
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.Jamesglasgow.Cw.OpenGlasgow:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.Jamesglasgow.Cw.OpenGlasgow:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.Jamesglasgow.Cw.OpenGlasgow:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f01002f, 0x7f010030, 0x7f010031
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled com.Jamesglasgow.Cw.OpenGlasgow:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.Jamesglasgow.Cw.OpenGlasgow:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.Jamesglasgow.Cw.OpenGlasgow:cameraMaxZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.Jamesglasgow.Cw.OpenGlasgow:cameraMinZoomPreference}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.Jamesglasgow.Cw.OpenGlasgow:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.Jamesglasgow.Cw.OpenGlasgow:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.Jamesglasgow.Cw.OpenGlasgow:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.Jamesglasgow.Cw.OpenGlasgow:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.Jamesglasgow.Cw.OpenGlasgow:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.Jamesglasgow.Cw.OpenGlasgow:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.Jamesglasgow.Cw.OpenGlasgow:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.Jamesglasgow.Cw.OpenGlasgow:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.Jamesglasgow.Cw.OpenGlasgow:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.Jamesglasgow.Cw.OpenGlasgow:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.Jamesglasgow.Cw.OpenGlasgow:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.Jamesglasgow.Cw.OpenGlasgow:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.Jamesglasgow.Cw.OpenGlasgow:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.Jamesglasgow.Cw.OpenGlasgow:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.Jamesglasgow.Cw.OpenGlasgow:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_ambientEnabled
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraMaxZoomPreference
+           @see #MapAttrs_cameraMinZoomPreference
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_latLngBoundsNorthEastLatitude
+           @see #MapAttrs_latLngBoundsNorthEastLongitude
+           @see #MapAttrs_latLngBoundsSouthWestLatitude
+           @see #MapAttrs_latLngBoundsSouthWestLongitude
+           @see #MapAttrs_liteMode
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiMapToolbar
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
+            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
+            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
+            0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
+            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
+            0x7f010046, 0x7f010047, 0x7f010048
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#ambientEnabled}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:ambientEnabled
+        */
+        public static final int MapAttrs_ambientEnabled = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraMaxZoomPreference}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraMaxZoomPreference
+        */
+        public static final int MapAttrs_cameraMaxZoomPreference = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraMinZoomPreference}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraMinZoomPreference
+        */
+        public static final int MapAttrs_cameraMinZoomPreference = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#latLngBoundsNorthEastLatitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsNorthEastLatitude
+        */
+        public static final int MapAttrs_latLngBoundsNorthEastLatitude = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#latLngBoundsNorthEastLongitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsNorthEastLongitude
+        */
+        public static final int MapAttrs_latLngBoundsNorthEastLongitude = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#latLngBoundsSouthWestLatitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsSouthWestLatitude
+        */
+        public static final int MapAttrs_latLngBoundsSouthWestLatitude = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#latLngBoundsSouthWestLongitude}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:latLngBoundsSouthWestLongitude
+        */
+        public static final int MapAttrs_latLngBoundsSouthWestLongitude = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#liteMode}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:liteMode
+        */
+        public static final int MapAttrs_liteMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiMapToolbar}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiMapToolbar
+        */
+        public static final int MapAttrs_uiMapToolbar = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 14;
+        /** Attributes that can be used with a SignInButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.Jamesglasgow.Cw.OpenGlasgow:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.Jamesglasgow.Cw.OpenGlasgow:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.Jamesglasgow.Cw.OpenGlasgow:scopeUris}</code></td><td></td></tr>
+           </table>
+           @see #SignInButton_buttonSize
+           @see #SignInButton_colorScheme
+           @see #SignInButton_scopeUris
+         */
+        public static final int[] SignInButton = {
+            0x7f010049, 0x7f01004a, 0x7f01004b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#buttonSize}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:buttonSize
+        */
+        public static final int SignInButton_buttonSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#colorScheme}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:colorScheme
+        */
+        public static final int SignInButton_colorScheme = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.Jamesglasgow.Cw.OpenGlasgow.R.attr#scopeUris}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.Jamesglasgow.Cw.OpenGlasgow:scopeUris
+        */
+        public static final int SignInButton_scopeUris = 2;
     };
 }

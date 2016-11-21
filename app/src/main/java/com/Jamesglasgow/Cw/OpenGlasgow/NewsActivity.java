@@ -2,8 +2,9 @@ package com.Jamesglasgow.Cw.OpenGlasgow;
 
 import android.os.Bundle;
 
-import com.Jamesglasgow.Cw.Async.WeatherAsync;
+import com.Jamesglasgow.Cw.Async.NewsAsync;
 
+import com.Jamesglasgow.Cw.models.NewsRSSitem;
 import com.Jamesglasgow.Cw.models.WeatherRSSitem;
 
 import java.util.concurrent.ExecutionException;
@@ -30,12 +31,14 @@ public class NewsActivity extends BaseActivity {
 		 */
 		mDrawerList.setItemChecked(position, true);
 		setTitle(listArray[position]);
+
 		// Get weather from RSS Feed
 		WeatherRSSitem WeatherLog = new WeatherRSSitem();
 		String RSSFeedURL = "http://api.openweathermap.org/data/2.5" +
 				"/weather?q=glasgow&appid=778031367c64481debd8925b2238952b&mode=xml";
 		//
-		WeatherAsync rssAsyncParse = new WeatherAsync(this,RSSFeedURL);
+		String RSSNewsURL = "http://feeds.skynews.com/feeds/rss/uk.xml";
+		NewsAsync rssAsyncParse = new NewsAsync(this,RSSFeedURL,RSSNewsURL);
 
 		try {
 			WeatherLog = rssAsyncParse.execute("").get();
@@ -44,6 +47,8 @@ public class NewsActivity extends BaseActivity {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
+
+
 
 
 	}
