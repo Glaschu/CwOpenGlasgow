@@ -5,40 +5,54 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="116478512016088"
+    timestamp="181060028641767"
     token="5466763172024140725"
-    verifier="CLASS_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="273" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-        type="DEX" />
+        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="116364939206928"
+        timestamp="180547498601570"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="116478512016088"
-        verifier="CLASS_ADDED" >
+        timestamp="180962512496772"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="180989393752237"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/builds/debug/180989393752237/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="181060028641767"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
