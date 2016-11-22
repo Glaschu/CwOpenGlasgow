@@ -15,147 +15,128 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.LinkedList;
 
 /**
  * Created by jamesglasgow on 14/11/2016.
  */
 
 public class NewsRSSParser {
-    private NewsRSSitem RSSDataItem;
+    public LinkedList<NewsRSSitem> ParseStart(String dataToParse){
 
-    public void setRSSDataItem(String sItemData)
-    {
-        RSSDataItem.setItemName(sItemData);
-        RSSDataItem.setItemDesc(sItemData);
-        RSSDataItem.setIconId(sItemData);
-
-
+        URL url1 = null;
+        try {
+            url1 = new URL(dataToParse);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        Log.e("Checks", "Website " + url1);
+        LinkedList<NewsRSSitem> alist = null;
+        alist=parseData(url1);
+        return alist;
     }
 
-    public NewsRSSitem getRSSDataItem()
+    private LinkedList<NewsRSSitem> parseData(URL dataToParse)
     {
-        return this.RSSDataItem;
-    }
+        NewsRSSitem Info=null;
+        LinkedList<NewsRSSitem> alist = null;
 
-    public NewsRSSParser()
-    {
-        this.RSSDataItem =  new NewsRSSitem();
-        setRSSDataItem(null);
-    }
-
-    public void parseRSSDataItem(XmlPullParser theParser, int theEventType)
-    {
         try
         {
-            while (theEventType != XmlPullParser.END_DOCUMENT)
+            XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+            factory.setNamespaceAware(true);
+            XmlPullParser xpp = factory.newPullParser();
+            //xpp.setInput( new StringReader ( dataToParse ) );
+            xpp.setInput(getInputStream(dataToParse), "UTF_8");
+            boolean stared=false;
+            int eventType = xpp.getEventType();
+            //boolean insideItem = false;
+            alist  = new LinkedList<NewsRSSitem>();
+            while (eventType != XmlPullParser.END_DOCUMENT)
             {
                 // Found a start tag
-                if(theEventType == XmlPullParser.START_TAG)
+                if(eventType == XmlPullParser.START_TAG)
                 {
-                    // Check which Tag has been found
-                    if (theParser.getName().equalsIgnoreCase("title"))
+                    // Check which Tag we have
+                    if (xpp.getName().equalsIgnoreCase("item"))//channel
                     {
-                        // Now just get the associated text
-                        String temp =theParser.nextText();
-                        // store data in class
-                        RSSDataItem.setItemName(temp);
-                        Log.e("Newstitle"," "+temp);
+                        if(!stared){
+                            stared=true;
+                        }
+                        // Log.e("MyTag", "Parsing error1");
                     }
                     else
                         // Check which Tag we have
-                        if (theParser.getName().equalsIgnoreCase("Link"))
+                        if (xpp.getName().equalsIgnoreCase("title")&&stared)
                         {
-                            // Now just get the associated text
-                            String temp = theParser.nextText();
-                            // store data in class
-                            RSSDataItem.setitemWeb(temp);
 
+                            Info = new NewsRSSitem();
+                            //
+                            Info.setItemName(xpp.nextText());
 
                         }
-                        else
-                            // Check which Tag we have
-                            if (theParser.getName().equalsIgnoreCase("description"))
-                            {
-                                // Now just get the associated text
-                                String temp = theParser.nextText();
-                                // store data in class
-                                RSSDataItem.setItemDesc(temp);
+                        else if (xpp.getName().equalsIgnoreCase("link")&&stared)
+                        {
 
-                            }
+                            String temp =xpp.nextText();
 
-                            else
-                                // Check which Tag we have
-                                if (theParser.getName().equalsIgnoreCase("enclosure"))
-                                {
-                                    // Now just get the associated text
-                                    String temp = theParser.getAttributeValue(null,"url");
-                                    // store data in class
-                                    RSSDataItem.setIconId(temp);
-                                    Log.e("Icon"," "+temp);
-
-                                }
+                            Info.setitemWeb(temp);
 
 
+                        }else if (xpp.getName().equalsIgnoreCase("description")&&stared)
+                        {
+                            String temp =xpp.nextText();
+                            Info.setItemDesc(temp);
 
+                        }
+                        else if (xpp.getName().equalsIgnoreCase("enclosure")&&stared)
+                        {  String temp =xpp.getAttributeValue(null,"url");
+                            Info.setIconId(temp);
+
+                        }
+
+                }else
+                if(eventType == XmlPullParser.END_TAG)
+                {
+                    if (xpp.getName().equalsIgnoreCase("item"))
+                    {
+                        //Log.e("MyTag","widget is " + widget.toString());
+                        alist.add(Info);
+                    }
+                    else
+                    if (xpp.getName().equalsIgnoreCase("channel"))
+                    {
+                        int size;
+                        size = alist.size();
+                        //Log.e("MyTag", "channel size is " + size);
+                    }
                 }
 
                 // Get the next event
-                theEventType = theParser.next();
+                eventType = xpp.next();
 
             } // End of while
-
-        }
-        catch (XmlPullParserException parserExp1)
-        {
-            Log.e("MyTag","Parsing error" + parserExp1.toString());
-        }
-
-        catch (IOException parserExp1)
-        {
-            Log.e("MyTag","IO error during parsing");
-        }
-
-    }
-
-    public void parseRSSData(String RSSItemsToParse) throws MalformedURLException {
-        URL rssURL = new URL(RSSItemsToParse);
-        InputStream rssInputStream;
-        try
-        {
-            XmlPullParserFactory parseRSSfactory = XmlPullParserFactory.newInstance();
-            parseRSSfactory.setNamespaceAware(true);
-            XmlPullParser RSSxmlPP = parseRSSfactory.newPullParser();
-            String xmlRSS = getStringFromInputStream(getInputStream(rssURL), "UTF-8");
-            RSSxmlPP.setInput(new StringReader(xmlRSS));
-            int eventType = RSSxmlPP.getEventType();
-
-            parseRSSDataItem(RSSxmlPP,eventType);
-
         }
         catch (XmlPullParserException ae1)
         {
-            Log.e("MyTag","Parsing error" + ae1.toString());
+            Log.e("MyTag", "Parsing error " + ae1.toString());
         }
         catch (IOException ae1)
         {
-            Log.e("MyTag","IO error during parsing");
+            Log.e("MyTag", "IO error during parsing");
+        }
+        return alist;
+
+    }
+    public InputStream getInputStream(URL url) {
+        try {
+            return url.openConnection().getInputStream();
+        } catch (IOException e) {
+            return null;
         }
 
-        Log.e("MyTag","End document");
     }
 
-    public InputStream getInputStream(URL url) throws IOException
-    {
-        return url.openConnection().getInputStream();
-    }
 
-    public static String getStringFromInputStream(InputStream stream, String charsetName) throws IOException
-    {
-        int n = 0;
-        char[] buffer = new char[1024 * 4];
-        InputStreamReader reader = new InputStreamReader(stream, charsetName);
-        StringWriter writer = new StringWriter();
-        while (-1 != (n = reader.read(buffer))) writer.write(buffer, 0, n);
-        return writer.toString();
-    }
+
 }
