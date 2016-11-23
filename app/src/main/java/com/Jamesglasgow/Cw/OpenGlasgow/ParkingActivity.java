@@ -2,12 +2,22 @@ package com.Jamesglasgow.Cw.OpenGlasgow;
 
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.ListView;
+
+import com.Jamesglasgow.Cw.Async.CarParkAsync;
+import com.Jamesglasgow.Cw.Async.RoadWorkAsync;
+import com.Jamesglasgow.Cw.adapters.RoadListAdapter;
+import com.Jamesglasgow.Cw.models.CarParkRSSitem;
+import com.Jamesglasgow.Cw.models.RoadWorkRSSitem;
+
+import java.util.LinkedList;
+import java.util.concurrent.ExecutionException;
 
 /**
  *
  */
 public class ParkingActivity extends BaseActivity {
-
+	LinkedList<CarParkRSSitem> alist = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -22,7 +32,20 @@ public class ParkingActivity extends BaseActivity {
 		 */
 		mDrawerList.setItemChecked(position, true);
 		setTitle(listArray[position]);
-		
-		((ImageView)findViewById(R.id.image_view)).setBackgroundResource(R.drawable.image3);
+
+
+		CarParkRSSitem RoadLog= new CarParkRSSitem();
+		String RSSParkURL = "https://api.open.glasgow.gov.uk/traffic/carparks";
+		CarParkAsync rssCarparkAsyncParse = new CarParkAsync(this,RSSParkURL);
+
+		try {
+			alist = rssCarparkAsyncParse.execute("").get();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} catch (ExecutionException e) {
+			e.printStackTrace();
+		}
+		//RssRoadListView = (ListView) findViewById(R.id.Roadworklist);
+		//RssRoadListView.setAdapter(new RoadListAdapter(this, alist));
 	}
 }
