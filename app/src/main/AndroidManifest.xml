@@ -13,7 +13,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCnSlXHZ5uWsoVPEn1kjN2QxvLpLcNk7FI"/>
         <!-- 
         	We will launch BaseActivity as launcher.
         	We will check if BaseActivity launch first time and open desired activity and set navigation item selected

@@ -5,32 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="233600347685937"
+    timestamp="1066556115465147"
     token="5466763172024140725"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1624" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1598" />
     <task
         name="verifier"
-        duration="0" />
+        duration="120" />
+
+    <artifact
+        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="233215708596326"
+        timestamp="1066556115465147"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="233600347685937"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

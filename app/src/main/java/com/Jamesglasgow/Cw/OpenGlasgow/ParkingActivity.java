@@ -5,10 +5,9 @@ import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.Jamesglasgow.Cw.Async.CarParkAsync;
-import com.Jamesglasgow.Cw.Async.RoadWorkAsync;
-import com.Jamesglasgow.Cw.adapters.RoadListAdapter;
+
 import com.Jamesglasgow.Cw.models.CarParkRSSitem;
-import com.Jamesglasgow.Cw.models.RoadWorkRSSitem;
+
 
 import java.util.LinkedList;
 import java.util.concurrent.ExecutionException;
