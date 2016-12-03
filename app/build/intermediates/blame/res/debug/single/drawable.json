@@ -1,7 +1,7 @@
 [
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image5.png",
@@ -13,11 +13,11 @@
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image2.png",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image3.png",
@@ -37,19 +37,19 @@
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/drawable/image1.png",

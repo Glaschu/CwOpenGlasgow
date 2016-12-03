@@ -801,7 +801,7 @@
                     "endOffset": 3852
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -820,7 +820,7 @@
                     "endOffset": 3932
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -839,7 +839,7 @@
                     "endOffset": 4022
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -858,7 +858,7 @@
                     "endOffset": 4112
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -877,7 +877,7 @@
                     "endOffset": 4192
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -896,7 +896,7 @@
                     "endOffset": 4273
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -915,7 +915,7 @@
                     "endOffset": 4353
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -934,7 +934,7 @@
                     "endOffset": 4433
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1044,17 +1044,17 @@
                     "startLine": 128,
                     "startColumn": 4,
                     "startOffset": 11365,
-                    "endColumn": 66,
-                    "endOffset": 11427
+                    "endColumn": 67,
+                    "endOffset": 11428
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
                         "startOffset": 276,
-                        "endColumn": 62,
-                        "endOffset": 338
+                        "endColumn": 63,
+                        "endOffset": 339
                     }
                 }
             },
@@ -1062,9 +1062,9 @@
                 "to": {
                     "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 11432,
+                    "startOffset": 11433,
                     "endColumn": 52,
-                    "endOffset": 11480
+                    "endOffset": 11481
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1081,9 +1081,9 @@
                 "to": {
                     "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 11485,
+                    "startOffset": 11486,
                     "endColumn": 48,
-                    "endOffset": 11529
+                    "endOffset": 11530
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1100,9 +1100,9 @@
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 11534,
+                    "startOffset": 11535,
                     "endColumn": 53,
-                    "endOffset": 11583
+                    "endOffset": 11584
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1119,12 +1119,12 @@
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 11588,
+                    "startOffset": 11589,
                     "endColumn": 104,
-                    "endOffset": 11688
+                    "endOffset": 11689
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1138,12 +1138,12 @@
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 11693,
+                    "startOffset": 11694,
                     "endColumn": 180,
-                    "endOffset": 11869
+                    "endOffset": 11870
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1157,12 +1157,12 @@
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 11874,
+                    "startOffset": 11875,
                     "endColumn": 124,
-                    "endOffset": 11994
+                    "endOffset": 11995
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1176,12 +1176,12 @@
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 11999,
+                    "startOffset": 12000,
                     "endColumn": 106,
-                    "endOffset": 12101
+                    "endOffset": 12102
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1195,12 +1195,12 @@
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 12106,
+                    "startOffset": 12107,
                     "endColumn": 179,
-                    "endOffset": 12281
+                    "endOffset": 12282
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1214,12 +1214,12 @@
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 12286,
+                    "startOffset": 12287,
                     "endColumn": 122,
-                    "endOffset": 12404
+                    "endOffset": 12405
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1233,12 +1233,12 @@
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 12409,
+                    "startOffset": 12410,
                     "endColumn": 102,
-                    "endOffset": 12507
+                    "endOffset": 12508
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 0,
@@ -1252,18 +1252,18 @@
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 12512,
+                    "startOffset": 12513,
                     "endColumn": 166,
-                    "endOffset": 12674
+                    "endOffset": 12675
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
-                        "startOffset": 438,
+                        "startOffset": 439,
                         "endColumn": 166,
-                        "endOffset": 604
+                        "endOffset": 605
                     }
                 }
             },
@@ -1271,12 +1271,12 @@
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 12679,
+                    "startOffset": 12680,
                     "endColumn": 187,
-                    "endOffset": 12862
+                    "endOffset": 12863
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 0,
@@ -1290,12 +1290,12 @@
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 12867,
+                    "startOffset": 12868,
                     "endColumn": 104,
-                    "endOffset": 12967
+                    "endOffset": 12968
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 0,
@@ -1309,12 +1309,12 @@
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 12972,
+                    "startOffset": 12973,
                     "endColumn": 180,
-                    "endOffset": 13148
+                    "endOffset": 13149
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 0,
@@ -1328,12 +1328,12 @@
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 13153,
+                    "startOffset": 13154,
                     "endColumn": 124,
-                    "endOffset": 13273
+                    "endOffset": 13274
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 0,
@@ -1347,12 +1347,12 @@
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 13278,
+                    "startOffset": 13279,
                     "endColumn": 174,
-                    "endOffset": 13448
+                    "endOffset": 13449
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 0,
@@ -1366,12 +1366,12 @@
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 13453,
+                    "startOffset": 13454,
                     "endColumn": 147,
-                    "endOffset": 13596
+                    "endOffset": 13597
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 0,
@@ -1385,12 +1385,12 @@
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 13601,
+                    "startOffset": 13602,
                     "endColumn": 62,
-                    "endOffset": 13659
+                    "endOffset": 13660
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 0,
@@ -1404,12 +1404,12 @@
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 13664,
+                    "startOffset": 13665,
                     "endColumn": 61,
-                    "endOffset": 13721
+                    "endOffset": 13722
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 0,
@@ -1423,12 +1423,12 @@
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 13726,
+                    "startOffset": 13727,
                     "endColumn": 78,
-                    "endOffset": 13800
+                    "endOffset": 13801
                 },
                 "from": {
-                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/values/values.xml",
+                    "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 0,
@@ -1442,9 +1442,9 @@
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 13805,
+                    "startOffset": 13806,
                     "endColumn": 53,
-                    "endOffset": 13854
+                    "endOffset": 13855
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1461,9 +1461,9 @@
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 13859,
+                    "startOffset": 13860,
                     "endColumn": 52,
-                    "endOffset": 13907
+                    "endOffset": 13908
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1480,9 +1480,9 @@
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 13912,
+                    "startOffset": 13913,
                     "endColumn": 51,
-                    "endOffset": 13959
+                    "endOffset": 13960
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/strings.xml",
@@ -1499,10 +1499,10 @@
                 "to": {
                     "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 13964,
+                    "startOffset": 13965,
                     "endLine": 158,
                     "endColumn": 12,
-                    "endOffset": 14250
+                    "endOffset": 14251
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/styles.xml",
@@ -1520,10 +1520,10 @@
                 "to": {
                     "startLine": 159,
                     "startColumn": 4,
-                    "startOffset": 14255,
+                    "startOffset": 14256,
                     "endLine": 161,
                     "endColumn": 12,
-                    "endOffset": 14410
+                    "endOffset": 14411
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/values/styles.xml",
@@ -1541,10 +1541,10 @@
                 "to": {
                     "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 14415,
+                    "startOffset": 14416,
                     "endLine": 169,
                     "endColumn": 12,
-                    "endOffset": 14876
+                    "endOffset": 14877
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml",
@@ -1562,10 +1562,10 @@
                 "to": {
                     "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 14881,
+                    "startOffset": 14882,
                     "endLine": 172,
                     "endColumn": 12,
-                    "endOffset": 15002
+                    "endOffset": 15003
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml",
@@ -1583,10 +1583,10 @@
                 "to": {
                     "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 15007,
+                    "startOffset": 15008,
                     "endLine": 175,
                     "endColumn": 12,
-                    "endOffset": 15130
+                    "endOffset": 15131
                 },
                 "from": {
                     "file": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml",
