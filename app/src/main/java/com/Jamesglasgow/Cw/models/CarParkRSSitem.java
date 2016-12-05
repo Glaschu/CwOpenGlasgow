@@ -72,4 +72,9 @@ public class CarParkRSSitem implements Serializable {
     public void setitemPercent(String itemPercent) {
         this.itemPercent = itemPercent;
     }
+
+    public String GetCarParkSpace(){
+        String Value=itemOccupied+"/"+itemCapacity;
+        return Value;
+    }
 }

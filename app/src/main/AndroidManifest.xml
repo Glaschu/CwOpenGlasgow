@@ -36,6 +36,7 @@
 		<activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.ParkingActivity" />
 		<activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.AboutActivity" />
 		<activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.SettingsActivity" />
+        <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.MapActivity" />
     </application>
 
 </manifest>
