@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 08 15:26:20 GMT 2016
+#Thu Dec 08 16:13:51 GMT 2016
 60.set=ANDROID_RESOURCE
 52.set=DEX
 53.base=/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar

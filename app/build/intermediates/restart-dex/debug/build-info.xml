@@ -5,7 +5,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1455494567007107"
+    timestamp="1458529997438351"
     token="5466763172024140725"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,22 +23,36 @@
         duration="0" />
 
     <artifact
-        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1455320597427831"
+        timestamp="1458139211669143"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1455494567007107"
+        timestamp="1458230392818074"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1458437280275580"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/builds/debug/1458437280275580/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1458529997438351"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

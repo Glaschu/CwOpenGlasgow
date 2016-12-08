@@ -120,8 +120,9 @@ public class NewsActivity extends BaseActivity {
         Type=(TextView)findViewById(R.id.WeatherTV);
         //The rss freed returns the temp in kelvin
         double tempdec= Double.parseDouble(WeatherLog.getItemDesc());
-        tempdec=tempdec - 273.15;
-        String tempstring=Double.toString(tempdec);
+        tempdec=tempdec - 273;
+
+        String tempstring=String.format("%.2f",tempdec);
         //display information
         Place.setText(WeatherLog.getItemName());
         Temp.setText(tempstring);

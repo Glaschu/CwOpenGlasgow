@@ -85,7 +85,7 @@ public class SaveData extends Activity {
 
     public void setDefaultPrefs(){
         savePreferences("mc_TYPE", 1);
-        savePreferences("mc_POST", "g428yd");
+        savePreferences("mc_POST", "g429xd");
     }
 
 
