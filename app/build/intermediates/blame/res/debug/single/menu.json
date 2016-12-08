@@ -2,5 +2,9 @@
     {
         "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/res/merged/debug/menu/menu_news.xml",
+        "source": "/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/res/menu/menu_news.xml"
     }
 ]

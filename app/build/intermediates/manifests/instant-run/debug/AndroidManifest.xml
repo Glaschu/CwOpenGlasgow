@@ -46,6 +46,7 @@
         <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.AboutActivity" />
         <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.SettingsActivity" />
         <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.MapActivity" />
+        <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.CanvusActivity" />
         <activity
             android:name="android.support.v7.widget.TestActivity"
             android:label="RecyclerViewTestActivity" />

@@ -129,6 +129,7 @@ public class WeatherRSSParser {
 
     public void parseRSSData(String RSSItemsToParse) throws MalformedURLException {
         URL rssURL = new URL(RSSItemsToParse);
+        Log.e("WeatherParse",""+rssURL);
         InputStream rssInputStream;
         try
         {

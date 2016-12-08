@@ -1,17 +1,20 @@
 package com.Jamesglasgow.Cw.OpenGlasgow;
 
+import com.Jamesglasgow.Cw.SaveFiles.SaveData;
 import com.Jamesglasgow.Cw.adapters.HomeScreenGridViewAdapter;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.widget.GridView;
 
 /**
  *
  */
 public class HomeActivity extends BaseActivity {
-	
-	
-	private GridView gridview;
+
+	SaveData SDPrefs;
+	SharedPreferences mySharedPrefs;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +36,11 @@ public class HomeActivity extends BaseActivity {
 		 */
 		mDrawerList.setItemChecked(position, true);
 		setTitle(listArray[position]);
-		
-		//initializeActivity();
+		mySharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+		SDPrefs = new SaveData(mySharedPrefs);
+		SDPrefs.setDefaultPrefs();
+
 	}
 
-	private void initializeActivity() {
 
-		gridview = (GridView)findViewById(R.id.gridview);
-		gridview.setAdapter(new HomeScreenGridViewAdapter(this, _items));
-	}
 }

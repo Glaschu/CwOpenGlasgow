@@ -46,24 +46,29 @@ public class NewsRSSParser {
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(true);
             XmlPullParser xpp = factory.newPullParser();
-            //xpp.setInput( new StringReader ( dataToParse ) );
-            xpp.setInput(getInputStream(dataToParse), "UTF_8");
+
+            //String xmlRSS = getStringFromInputStream(getInputStream(dataToParse), "UTF-8");
+            //xpp.setInput(new StringReader(xmlRSS));
+            xpp.setInput(getInputStream(dataToParse), "UTF-8");
+
             boolean stared=false;
             int eventType = xpp.getEventType();
             //boolean insideItem = false;
             alist  = new LinkedList<NewsRSSitem>();
             while (eventType != XmlPullParser.END_DOCUMENT)
             {
+
                 // Found a start tag
                 if(eventType == XmlPullParser.START_TAG)
                 {
+
                     // Check which Tag we have
                     if (xpp.getName().equalsIgnoreCase("item"))//channel
                     {
                         if(!stared){
                             stared=true;
                         }
-                        // Log.e("MyTag", "Parsing error1");
+
                     }
                     else
                         // Check which Tag we have
@@ -83,17 +88,15 @@ public class NewsRSSParser {
                             Info.setitemWeb(temp);
 
 
+
                         }else if (xpp.getName().equalsIgnoreCase("description")&&stared)
                         {
                             String temp =xpp.nextText();
                             Info.setItemDesc(temp);
 
-                        }
-                        else if (xpp.getName().equalsIgnoreCase("enclosure")&&stared)
-                        {  String temp =xpp.getAttributeValue(null,"url");
-                            Info.setIconId(temp);
 
                         }
+
 
                 }else
                 if(eventType == XmlPullParser.END_TAG)
@@ -136,6 +139,7 @@ public class NewsRSSParser {
         }
 
     }
+
 
 
 

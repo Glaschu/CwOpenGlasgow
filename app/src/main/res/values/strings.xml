@@ -5,7 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="dummy_string">Dummy String</string>
-    
+    <string name="dialog_About">This app will show information on the weather and traffic and parking in glasgow</string>
+    <string name="dialog_About_OK_btn">Ok</string>
     <string name="open_drawer">Drawer Open</string>
     <string name="close_drawer">Drawer Close</string>
 

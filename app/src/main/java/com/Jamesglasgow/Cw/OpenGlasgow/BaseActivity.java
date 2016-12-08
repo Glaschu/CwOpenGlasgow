@@ -3,9 +3,15 @@ package com.Jamesglasgow.Cw.OpenGlasgow;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,13 +31,14 @@ import com.Jamesglasgow.Cw.models.Items;
  */
 public class BaseActivity extends Activity {
 
+
 	/**
 	 *  Frame layout: Which is going to be used as parent layout for child activity layout.
 	 *  This layout is protected so that child activity can access this  
 	 *  */
 	protected FrameLayout frameLayout;
-	
-	/**
+
+    /**
 	 * ListView to add navigation drawer item in it.
 	 * We have made it protected to access it in child class. We will just use it in child class to make item selected according to activity opened.  
 	 */
@@ -64,8 +71,11 @@ public class BaseActivity extends Activity {
 	 * Drawer listner class for drawer open, close etc.
 	 */
 	private ActionBarDrawerToggle actionBarDrawerToggle;
-	
-	
+
+
+    FragmentManager fmAboutDialogue;
+
+	public int Pos;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -74,7 +84,9 @@ public class BaseActivity extends Activity {
 		frameLayout = (FrameLayout)findViewById(R.id.content_frame);
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerList = (ListView) findViewById(R.id.left_drawer);
-		
+
+
+        fmAboutDialogue = this.getFragmentManager();
 		// set a custom shadow that overlays the main content when the drawer opens
 		//mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         
@@ -96,7 +108,7 @@ public class BaseActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				
+
 				openActivity(position);
 			}
 		});
@@ -166,8 +178,7 @@ public class BaseActivity extends Activity {
 		 * it will reset this value because of initialization in onCreate method.
 		 * So that we are setting this in child activity.    
 		 */
-//		mDrawerList.setItemChecked(position, true);
-//		setTitle(listArray[position]);
+
 		mDrawerLayout.closeDrawer(mDrawerList);
 		BaseActivity.position = position; //Setting currently selected position in this field so that it will be available in our child activities. 
 		
@@ -177,6 +188,7 @@ public class BaseActivity extends Activity {
 			break;
 		case 1:
 			startActivity(new Intent(this, NewsActivity.class));
+
 			break;
 		case 2:
 			startActivity(new Intent(this, RoadWorksActivity.class));
@@ -185,7 +197,8 @@ public class BaseActivity extends Activity {
 			startActivity(new Intent(this, ParkingActivity.class));
 			break;
 		case 4:
-			startActivity(new Intent(this, AboutActivity.class));
+            DialogFragment mcAboutDlg = new AboutDialogue();
+            mcAboutDlg.show(fmAboutDialogue, "menu");
 			break;
 		case 5:
 			startActivity(new Intent(this, SettingsActivity.class));
@@ -200,8 +213,10 @@ public class BaseActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
-		getMenuInflater().inflate(R.menu.main, menu);
-		return super.onCreateOptionsMenu(menu);
+
+			getMenuInflater().inflate(R.menu.main, menu);
+			return super.onCreateOptionsMenu(menu);
+
 	}
 
 	@Override
@@ -212,24 +227,23 @@ public class BaseActivity extends Activity {
 		if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-		
-		switch (item.getItemId()) {
-		case R.id.action_settings:
-			return true;
-		
-		default:
+
 			return super.onOptionsItemSelected(item);
 		}
-	}
-	
-	/* Called whenever we call invalidateOptionsMenu() */
+
+    /* Called whenever we call invalidateOptionsMenu() */
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // If the nav drawer is open, hide action items related to the content view
         boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
+
+
+
+
+
         return super.onPrepareOptionsMenu(menu);
     }
+
     
     /* We can override onBackPressed method to toggle navigation drawer*/
 	@Override
@@ -240,4 +254,5 @@ public class BaseActivity extends Activity {
 			mDrawerLayout.openDrawer(mDrawerList);
 		}
 	}
+
 }

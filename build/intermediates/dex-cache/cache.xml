@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="3f029675c47e5ae278a46b91a0ce26f4bb300cdd">
+        sha1="2fb83ef695bf193f04ce25574a493d74f4c9d230">
         <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_366b651d7602a1491d732cf73a202df8ee0936ae/classes.dex" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9eaeb0f015f085e7ad21628691e403eb290a20be">
+        sha1="3f0e0eeb6819190b231ce0a6d79e6c42edfd03ab">
         <dex dex="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_db35b2df9854137f7e90659b15ec4ff368be67cf/classes.dex" />
     </item>
     <item

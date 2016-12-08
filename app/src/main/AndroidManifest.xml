@@ -37,6 +37,7 @@
 		<activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.AboutActivity" />
 		<activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.SettingsActivity" />
         <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.MapActivity" />
+        <activity android:name="com.Jamesglasgow.Cw.OpenGlasgow.CanvusActivity" />
     </application>
 
 </manifest>

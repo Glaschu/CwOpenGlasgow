@@ -147,6 +147,8 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="dialog_About">This app will show information on the weather and traffic and parking in glasgow</string>
+    <string name="dialog_About_OK_btn">Ok</string>
     <string name="dummy_string">Dummy String</string>
     <string name="hello_world">Hello world!</string>
     <string name="open_drawer">Drawer Open</string>
