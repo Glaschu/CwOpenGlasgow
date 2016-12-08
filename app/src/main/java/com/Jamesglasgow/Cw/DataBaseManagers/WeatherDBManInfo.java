@@ -45,14 +45,5 @@ public class WeatherDBManInfo implements Serializable {
     public void setWeatherDes(String WeatherDes) {
         this.WeatherDes = WeatherDes;
     }
-    /*
-    @Override
-    public String toString() {
-        String WeatherData;
-        WeatherData = "mcStarSignsInfo [starSignID=" + starSignID;
-        WeatherData = ", starSign=" + starSign;
-        WeatherData = ", starSignCharacteristics=" + starSignCharacteristics +"]";
-        return WeatherData;
-    }
-*/
+
 }

@@ -35,14 +35,21 @@ public class RoadListAdapter extends BaseAdapter {
         return items.size();
     }
 
-    //  @Override
+    /**
+     * returns the item at postion
+     */
     public Object getItem(int position) {
         return items.get(position);
     }
     //@Override
+
+    /**
+     * returns the item  postion
+     */
     public long getItemId(int position) {
         return position;
     }
+
     private class ViewHolder {
         TextView textView1;
         TextView textView2;
@@ -50,6 +57,9 @@ public class RoadListAdapter extends BaseAdapter {
         LinearLayout lLayout;
         ListView Lview;
     }
+    /**
+     * The getview inflates the listview with information we get from the item to fill in the listview
+     */
     public View getView(int position, View convertView, ViewGroup parent) {
 
 

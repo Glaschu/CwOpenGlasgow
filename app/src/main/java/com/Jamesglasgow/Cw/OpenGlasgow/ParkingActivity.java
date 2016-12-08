@@ -39,10 +39,11 @@ public class ParkingActivity extends BaseActivity {
 		setTitle(listArray[position]);
 
 
-
+        //place to store park info
 		String RSSParkURL = "https://api.open.glasgow.gov.uk/traffic/carparks";
 		CarParkAsync rssCarparkAsyncParse = new CarParkAsync(this,RSSParkURL);
 
+        //start async of parking lots
 		try {
 			alist = rssCarparkAsyncParse.execute("").get();
 		} catch (InterruptedException e) {
@@ -50,9 +51,11 @@ public class ParkingActivity extends BaseActivity {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
+        //display information using listadapter
         RssParkListView = (ListView) findViewById(R.id.CarParklist);
         RssParkListView.setAdapter(new ParkingListAdapter(this, alist));
 
+        //to tell where on a list view the item was selected to get the neme
         RssParkListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             public void onItemClick(AdapterView parent, View v, int position, long id){
@@ -63,6 +66,8 @@ public class ParkingActivity extends BaseActivity {
             }
         });
 	}
+    //called affter list view is select
+    //this save the information for put extra such as extra
     private void openMap(int Pos){
         Intent intent = new Intent(this, MapActivity.class);
         Bundle extras = new Bundle();

@@ -4,7 +4,9 @@ package com.Jamesglasgow.Cw.models;
  *
  */
 public class Items {
-
+	// *********************************************
+	// Declare variables etc.
+	// *********************************************
 	private String itemName;
 	private String itemDesc;
 	private long iconId;
@@ -14,7 +16,9 @@ public class Items {
 		this.itemDesc = itemDesc;
 		this.iconId = iconId;
 	}
-
+	// *********************************************
+	// Declare getters and setters etc.
+	// *********************************************
 	public String getItemName() {
 		return itemName;
 	}

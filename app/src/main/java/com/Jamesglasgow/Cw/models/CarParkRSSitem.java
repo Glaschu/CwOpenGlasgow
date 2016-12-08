@@ -7,6 +7,10 @@ import java.io.Serializable;
  */
 
 public class CarParkRSSitem implements Serializable {
+
+    // *********************************************
+    // Declare variables etc.
+    // *********************************************
     private String itemName;
     private String itemOccupied;
     private String itemCapacity;
@@ -24,7 +28,9 @@ public class CarParkRSSitem implements Serializable {
 
 
     }
-
+    // *********************************************
+    // Declare getters and setters etc.
+    // *********************************************
     public String getItemName() {
         return itemName;
     }

@@ -23,7 +23,7 @@ public class CanvusView  extends SurfaceView implements SurfaceHolder.Callback
         SunRiseSurface.addCallback(this);
         drawingThread = new DrawThread(getHolder(), this);
         drawingThread.setInfo(Place,rise,set);
-        Log.e("Hello",set);
+
         setFocusable(true);
 
     }

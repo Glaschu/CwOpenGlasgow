@@ -96,10 +96,6 @@ activity#com.Jamesglasgow.Cw.OpenGlasgow.ParkingActivity
 ADDED from /Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/AndroidManifest.xml:36:3-78
 	android:name
 		ADDED from /Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/AndroidManifest.xml:36:13-75
-activity#com.Jamesglasgow.Cw.OpenGlasgow.AboutActivity
-ADDED from /Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/AndroidManifest.xml:37:3-76
-	android:name
-		ADDED from /Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/AndroidManifest.xml:37:13-73
 activity#com.Jamesglasgow.Cw.OpenGlasgow.SettingsActivity
 ADDED from /Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/src/main/AndroidManifest.xml:38:3-79
 	android:name

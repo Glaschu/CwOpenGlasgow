@@ -5,33 +5,40 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1413577762735060"
+    timestamp="1455494567007107"
     token="5466763172024140725"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="439" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="474" />
+        duration="0" />
     <task
         name="verifier"
-        duration="79" />
+        duration="0" />
 
     <artifact
-        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="1413577762735060"
+        timestamp="1455320597427831"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1455494567007107"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jamesglasgow/Documents/Uni4th/MCW/CwOpenGlasgow/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

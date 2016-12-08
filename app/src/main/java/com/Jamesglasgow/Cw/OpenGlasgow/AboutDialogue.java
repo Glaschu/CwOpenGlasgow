@@ -13,6 +13,9 @@ import android.os.Bundle;
 public class AboutDialogue  extends DialogFragment {
 
     @Override
+    /**
+     * this create a dialog box with the info to the string to build it with an button to close it
+     */
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         // Use the Builder class for convenient dialog construction
         AlertDialog.Builder mcAboutDialog = new AlertDialog.Builder(getActivity());

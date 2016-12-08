@@ -34,7 +34,10 @@ public class CarParkAsync extends AsyncTask<String, Integer, LinkedList<CarParkR
         // Message to indicate start of parsing
         Toast.makeText(appContext,"Parsing started!", Toast.LENGTH_SHORT).show();
     }
-
+    /**
+     * The method executed on diffrent thread to the ui,invoked after onPreExecute and
+     * will call onPostExecute after it finished and return a Linkedlist
+     */
     @Override
     protected LinkedList<CarParkRSSitem> doInBackground(String... params)
     {

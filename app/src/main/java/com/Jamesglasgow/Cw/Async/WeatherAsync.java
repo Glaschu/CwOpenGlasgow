@@ -38,7 +38,10 @@ public class WeatherAsync extends AsyncTask<String, Integer, WeatherRSSitem> {
             // Message to indicate start of parsing
             Toast.makeText(appContext,"Parsing started!", Toast.LENGTH_SHORT).show();
         }
-
+    /**
+     * The method executed on diffrent thread to the ui,invoked after onPreExecute and
+     * will call onPostExecute after it finished and return a Linkedlist
+     */
         @Override
         protected WeatherRSSitem doInBackground(String... params)
         {

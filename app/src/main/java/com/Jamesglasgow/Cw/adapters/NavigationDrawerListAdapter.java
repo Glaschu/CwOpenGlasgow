@@ -38,18 +38,25 @@ public class NavigationDrawerListAdapter extends BaseAdapter {
 
 		return _items.size();
 	}
-
+	/**
+	 * returns the item at postion
+	 */
 	@Override
 	public Object getItem(int position) {
 
 		return _items.get(position);
 	}
 
+    /**
+     * returns the item postion
+     */
 	@Override
 	public long getItemId(int position) {
 		return 0;
 	}
-
+/**
+ * The getview inflates the listview with information we get from the item to fill in the listview
+ */
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		ViewHolder holder = null;

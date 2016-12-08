@@ -25,11 +25,9 @@ import java.util.List;
 
 public class NewsListAdapter extends BaseAdapter {
     private List<NewsRSSitem> items;
-    private Context context;
     private LayoutInflater inflater;
 
-    static int Load =0;
-    static boolean Searching =false;
+
 
 
 
@@ -42,11 +40,16 @@ public class NewsListAdapter extends BaseAdapter {
         return items.size();
     }
 
-    //  @Override
+    /**
+     * returns the item at postion
+     */
     public Object getItem(int position) {
         return items.get(position);
     }
-    //@Override
+
+    /**
+     * returns the item postion
+     */
     public long getItemId(int position) {
         return position;
     }
@@ -57,6 +60,9 @@ public class NewsListAdapter extends BaseAdapter {
         LinearLayout lLayout;
         ListView Lview;
     }
+    /**
+     * The getview inflates the listview with information we get from the item to fill in the listview
+     */
     public View getView(int position, View convertView, ViewGroup parent) {
 
 

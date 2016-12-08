@@ -6,13 +6,18 @@
     android:orientation="vertical"
     android:padding="5dp" >
 
-    <GridView
-        android:id="@+id/gridview"
+
+    <TextView
+        android:text="This app has information fon the current parking and roadwork about glasgow with the weather where ever you are"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:horizontalSpacing="2dp"
-        android:numColumns="auto_fit"
-        android:verticalSpacing="2dp" >
-    </GridView>
+        android:id="@+id/textView3"
+        android:textSize="33sp" />
 
+    <TextView
+        android:text="Slide from the left to start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="50sp" />
 </LinearLayout>

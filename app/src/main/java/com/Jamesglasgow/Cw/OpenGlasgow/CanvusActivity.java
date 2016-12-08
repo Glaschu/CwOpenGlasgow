@@ -28,7 +28,7 @@ public class CanvusActivity extends BaseActivity
          */
         //setContentView(R.layout.); // app main UI screen
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
+        //Get the budle of the information we sent trough to the app
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         Integer Place = extras.getInt("Section");

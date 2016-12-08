@@ -71,13 +71,16 @@ public class NewsActivity extends BaseActivity {
 
 		// Get weather from RSS Feed
          WeatherLog = new WeatherRSSitem();
-		String RSSFeedURL ="http://api.openweathermap.org/data/2.5/weather?zip="+SharedPrefs.getString("mc_POST","g429xd")+",uk&appid=778031367c64481debd8925b2238952b&mode=xml";
+		String RSSFeedURL ="http://api.openweathermap.org/data/2.5/weather?zip="+SharedPrefs.getString("mc_POST","g429xd")
+                +",uk&appid=778031367c64481debd8925b2238952b&mode=xml";
 
-		//
+		//create ite to store news list
 		NewsRSSitem NewsLog= new NewsRSSitem();
 		String RSSNewsURL = "https://stv.tv/news/scotland/?format=rss";
+
 		WeatherAsync rssAsyncParse = new WeatherAsync(this,RSSFeedURL);
 		NewsAsync rssNewsAsyncParse = new NewsAsync(this,RSSNewsURL);
+        //start parse of both async
 		try {
 			WeatherLog = rssAsyncParse.execute("").get();
 		} catch (InterruptedException e) {
@@ -92,35 +95,47 @@ public class NewsActivity extends BaseActivity {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
+        //Check the data
 		WeatherDBMan WeatherDB = new WeatherDBMan(this,"Weather.db",null,1);
         try {
             WeatherDB.dbCreate();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Log.e("WeatherDb ",""+ WeatherLog.getIconId());
-       // WeatherDB.findStarSign("Aries");
-
-
+        //get data from iconcode
         WeatherInfo = WeatherDB.FindWeatherIcon(WeatherLog.getIconId());
 
         if(WeatherInfo==null){
             Log.e("WeatherDb ","Failled to load");
         }
-        Log.e("WeatherDb "," "+ WeatherInfo.getWeatherImg());
-
+        //dispay icon form the data base information
         WeatherIcon=(ImageView)findViewById(R.id.item_icon_imgview);
         String mDrawableName = WeatherInfo.getWeatherImg();
         Resources res = getResources();
         int resID = res.getIdentifier(mDrawableName , "drawable", getPackageName());
         WeatherIcon.setImageResource(resID);
 
+        Place=(TextView)findViewById(R.id.Placetxt);
+        Temp=(TextView)findViewById(R.id.TempTV);
+        Type=(TextView)findViewById(R.id.WeatherTV);
+        //The rss freed returns the temp in kelvin
+        double tempdec= Double.parseDouble(WeatherLog.getItemDesc());
+        tempdec=tempdec - 273.15;
+        String tempstring=Double.toString(tempdec);
+        //display information
+        Place.setText(WeatherLog.getItemName());
+        Temp.setText(tempstring);
+        Type.setText(WeatherInfo.getWeatherDes());
+
+        //caldiffrence of times for sunrise and set
         diff=CalTimeDiff(WeatherLog.getitemSunRise(),WeatherLog.getitemSunSet());
+
 		RssNewsListView = (ListView) findViewById(R.id.Newslist);
 		RssNewsListView.setAdapter(new NewsListAdapter(this, alist));
 
 
 	}
+    //to cal the time diffrence between the sun rise and set to now when high noon is
     public int CalTimeDiff(String rise,String set){
         int finalAnswer;
 
@@ -183,6 +198,7 @@ public class NewsActivity extends BaseActivity {
         return super.onCreateOptionsMenu(menu);
 
     }
+    //add a button to action bar to activite draw
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

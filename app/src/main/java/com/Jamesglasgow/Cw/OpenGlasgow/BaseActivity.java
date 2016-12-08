@@ -45,10 +45,8 @@ public class BaseActivity extends Activity {
 	
 	protected ListView mDrawerList;
 	
-	/**
-	 * List item array for navigation drawer items. 
-	 * */
-	protected String[] listArray = { "BangBang", "News &amp; Weather", "RoadWorks", "Parking", "About", "Settings" };
+
+	protected String[] listArray = { "Open Glasgow", "News & Weather", "RoadWorks", "Parking", "About", "Settings" };
 	protected ArrayList<Items> _items;
 	
 	/**
@@ -57,25 +55,25 @@ public class BaseActivity extends Activity {
 	protected static int position;
 	
 	/**
-	 *  This flag is used just to check that launcher activity is called first time 
-	 *  so that we can open appropriate Activity on launch and make list item position selected accordingly.    
+	 *  This flag is used just to check that launcher activity is called first time
 	 * */
 	private static boolean isLaunch = true;
 	
-	/**
-	 *  Base layout node of this Activity.    
-	 * */
+
 	private DrawerLayout mDrawerLayout;
 	
-	/**
-	 * Drawer listner class for drawer open, close etc.
-	 */
+
 	private ActionBarDrawerToggle actionBarDrawerToggle;
 
 
     FragmentManager fmAboutDialogue;
 
 	public int Pos;
+
+    /**
+     *
+     * his oncreates a items list that will be added to are nav drawers it then build the togoolls for the navigation bar
+     */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -91,11 +89,11 @@ public class BaseActivity extends Activity {
 		//mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         
 		_items = new ArrayList<Items>();
-		_items.add(new Items("News &amp; Weather", "Item One Description", R.drawable.item_1));
-		_items.add(new Items("RoadWorks", "Item Two Description", R.drawable.item_2));
-		_items.add(new Items("Parking", "Item Three Description", R.drawable.item_3));
-		_items.add(new Items("About", "Item Four Description", R.drawable.item_4));
-		_items.add(new Items("Settings", "Item Five Description", R.drawable.item_5));
+		_items.add(new Items("News & Weather", "About news and weather", R.drawable.ic_inbox_black_24dp));
+		_items.add(new Items("RoadWorks", "Current Roadwork", R.drawable.ic_error_outline_black_24dp));
+		_items.add(new Items("Parking", "Carpark spaces", R.drawable.carpark_img));
+		_items.add(new Items("About", "About Popup", R.drawable.ic_favorite_black_24dp));
+		_items.add(new Items("Settings", "Set map and postcode", R.drawable.ic_radio_button_checked_black_24dp));
 		
 		//Adding header on list view 
 		View header = (View)getLayoutInflater().inflate(R.layout.list_view_header_layout, null);
@@ -121,7 +119,7 @@ public class BaseActivity extends Activity {
 		actionBarDrawerToggle = new ActionBarDrawerToggle(
 				this,						/* host Activity */
 				mDrawerLayout, 				/* DrawerLayout object */
-				R.drawable.ic_launcher,     /* nav drawer image to replace 'Up' caret */
+				R.drawable.carpark_img,     /* nav drawer image to replace 'Up' caret */
 				R.string.open_drawer,       /* "open drawer" description for accessibility */
 				R.string.close_drawer)      /* "close drawer" description for accessibility */ 
 		{ 
@@ -157,11 +155,7 @@ public class BaseActivity extends Activity {
 		 * We have to open some activity with layout on launch. So we are checking if this BaseActivity is called first time then we are opening our first activity.
 		 * */
 		if(isLaunch){
-			 /**
-			  *Setting this flag false so that next time it will not open our first activity.
-			  *We have to use this flag because we are using this BaseActivity as parent activity to our other activity. 
-			  *In this case this base activity will always be call when any child activity will launch.
-			  */
+
 			isLaunch = false;
 			openActivity(0);
 		}

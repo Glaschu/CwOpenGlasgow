@@ -45,6 +45,9 @@ public class WeatherRSSParser {
         setRSSDataItem(null);
     }
 
+    /**
+     *This is the parser it parser the data when it activates and add the data to the item
+     */
     public void parseRSSDataItem(XmlPullParser theParser, int theEventType)
     {
         try
@@ -122,11 +125,13 @@ public class WeatherRSSParser {
 
         catch (IOException parserExp1)
         {
-            Log.e("MyTag","IO error during parsing");
+            Log.e("MyTag","IO error during parsing"+parserExp1);
         }
 
     }
-
+    /**
+     *send url to open conection then then changes it to a string and test the data and returns an string
+     */
     public void parseRSSData(String RSSItemsToParse) throws MalformedURLException {
         URL rssURL = new URL(RSSItemsToParse);
         Log.e("WeatherParse",""+rssURL);
@@ -149,17 +154,24 @@ public class WeatherRSSParser {
         }
         catch (IOException ae1)
         {
+            ae1.printStackTrace();
             Log.e("MyTag","IO error during parsing");
         }
 
         Log.e("MyTag","End document");
     }
 
+    /**
+     *OpenConecteion to the internet to download
+     */
     public InputStream getInputStream(URL url) throws IOException
     {
         return url.openConnection().getInputStream();
     }
 
+    /**
+     *method to change inputStream to stream
+     */
     public static String getStringFromInputStream(InputStream stream, String charsetName) throws IOException
     {
         int n = 0;

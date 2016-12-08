@@ -70,7 +70,7 @@ private int place;
         run = b;
     }
     public  void setInfo(int Place,String Rise,String Set){
-        place=Place+5;
+        place=Place+15;
         rise=Rise;
         set=Set;
     }

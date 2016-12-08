@@ -1,12 +1,10 @@
 package com.Jamesglasgow.Cw.OpenGlasgow;
 
 import com.Jamesglasgow.Cw.SaveFiles.SaveData;
-import com.Jamesglasgow.Cw.adapters.HomeScreenGridViewAdapter;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.widget.GridView;
 
 /**
  *

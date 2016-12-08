@@ -122,6 +122,11 @@ public class WeatherDBMan extends SQLiteOpenHelper {
             throw new Error("Problems copying DB!");
         }
     }
+    /**
+     * This method searchs the data base for the IconCode and then when we get a result we send it to the weather info class
+     * to be able to all it anywhere
+     */
+
     public WeatherDBManInfo FindWeatherIcon(String IconCode) {
 
         String query = "Select * FROM " + TBL_WEATHERDATA + " WHERE " + COL_ICONNUM + " =  \"" + IconCode + "\"";

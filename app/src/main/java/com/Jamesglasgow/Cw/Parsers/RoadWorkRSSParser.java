@@ -33,6 +33,10 @@ public class RoadWorkRSSParser {
         return alist;
     }
 
+    /**
+     *This is the parser it parser the data when after open iternet conection and
+     * searching inputstream it activates and add the data to the item
+     */
     private LinkedList<RoadWorkRSSitem> parseData(URL dataToParse)
     {
         RoadWorkRSSitem Info=null;
@@ -126,6 +130,7 @@ public class RoadWorkRSSParser {
         return alist;
 
     }
+    //opens conection
     public InputStream getInputStream(URL url) {
         try {
             return url.openConnection().getInputStream();

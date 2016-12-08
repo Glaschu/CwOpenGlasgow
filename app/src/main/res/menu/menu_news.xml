@@ -6,7 +6,7 @@
 
 
         <item android:id="@+id/Graph"
-            android:icon="@drawable/image1"
+            android:icon="@drawable/ic_timeline_black_24dp"
             android:title="SunRiseGraph"
             android:showAsAction="ifRoom|withText"
             />

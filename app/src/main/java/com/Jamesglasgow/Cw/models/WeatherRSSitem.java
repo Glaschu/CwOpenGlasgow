@@ -7,6 +7,9 @@ import java.io.Serializable;
  */
 
 public class WeatherRSSitem implements Serializable {
+    // *********************************************
+    // Declare variables etc.
+    // *********************************************
     private String itemPlace;
     private String itemHumidity;
     private String itemTemp;
@@ -21,6 +24,9 @@ public class WeatherRSSitem implements Serializable {
         this.itemSunRise="";
         this.itemSunSet="";
     }
+    // *********************************************
+    // Declare getters and setters etc.
+    // *********************************************
 
     public String getItemName() {
         return itemPlace;

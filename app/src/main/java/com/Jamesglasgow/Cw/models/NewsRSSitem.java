@@ -7,6 +7,9 @@ import java.io.Serializable;
  */
 
 public class NewsRSSitem implements Serializable {
+    // *********************************************
+    // Declare variables etc.
+    // *********************************************
     private String itemTitle;
     private String itemDis;
     private String itemImage;
@@ -19,6 +22,9 @@ public class NewsRSSitem implements Serializable {
         this.itemWeb="";
 
     }
+    // *********************************************
+    // Declare getters and setters etc.
+    // *********************************************
 
     public String getItemName() {
         return itemTitle;

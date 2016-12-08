@@ -20,6 +20,7 @@ import java.util.LinkedList;
  */
 
 public class CarParkParser {
+    //Open conection
     public LinkedList<CarParkRSSitem> ParseStart(String dataToParse){
 
         URL url1 = null;
@@ -33,7 +34,10 @@ public class CarParkParser {
         alist=parseData(url1);
         return alist;
     }
-
+    /**
+     *This is the parser it parser the data when after open iternet conection and
+     * searching inputstream it activates and add the data to the item
+     */
     private LinkedList<CarParkRSSitem> parseData(URL dataToParse)
     {
         CarParkRSSitem Info=null;
@@ -146,6 +150,10 @@ public class CarParkParser {
         return alist;
 
     }
+
+    /**
+     * Opens Internet conection
+     */
     public InputStream getInputStream(URL url) {
         try {
             return url.openConnection().getInputStream();

@@ -22,6 +22,7 @@ import java.util.LinkedList;
  */
 
 public class NewsRSSParser {
+
     public LinkedList<NewsRSSitem> ParseStart(String dataToParse){
 
         URL url1 = null;
@@ -35,7 +36,10 @@ public class NewsRSSParser {
         alist=parseData(url1);
         return alist;
     }
-
+    /**
+     *This is the parser it parser the data when after open iternet conection and
+     * searching inputstream it activates and add the data to the item
+     */
     private LinkedList<NewsRSSitem> parseData(URL dataToParse)
     {
         NewsRSSitem Info=null;
@@ -131,6 +135,7 @@ public class NewsRSSParser {
         return alist;
 
     }
+    //open conection
     public InputStream getInputStream(URL url) {
         try {
             return url.openConnection().getInputStream();
